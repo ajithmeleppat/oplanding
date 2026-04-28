@@ -9,7 +9,6 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-
 }
 
 .footer {
@@ -21,10 +20,12 @@ body{
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    padding: 10px 0px 0px 40px ;
 }
 .navbar {
     display: flex;
     gap: 20px;
+    padding: 10px 40px 0px 0px ;
 }
 
 .navbar a {
@@ -45,8 +46,6 @@ body{
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
 }
 
 .heroright{
@@ -68,13 +67,11 @@ img {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-
 }
 
 .heroleft p{
     font-size: 18px;
     color: #e5e7eb;
-
 }
 
 button {
@@ -89,7 +86,8 @@ button {
 .additional-info{
     display: flex;
     flex-direction: column;
-
+    gap: 20px;
+    padding: 40px;
 }
 
 .additional-text{
@@ -105,4 +103,24 @@ button {
 .additional-images{
     flex: 1;
     display: flex;
+}
+
+.additional-images figure{
+    flex: 1;
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+.quote-text, .quote-author{
+    flex: 1;
+    align-self: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
 }
