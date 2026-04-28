@@ -31,3 +31,64 @@ body{
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.heroleft{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.heroright{
+    flex: 1;
+}
+
+.image-placeholder{
+    width: 100%;
+    height: 100%;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+button{
+    background-color: #3882f6;
+}
+
+.heroimage{
+    justify-content: flex-end;
+    height: auto;
+    width: 500;
+}
+
+.heroleft h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+.heroleft p{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+button {
+    width: fit-content;
+    padding: 10px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
